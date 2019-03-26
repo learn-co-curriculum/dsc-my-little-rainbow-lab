@@ -2,9 +2,9 @@
 # My Little Rainbow - Lab
 
 ## Introduction
-In this lab, we're going to make a rainbow with HTML `<div>` elements. And while we do it we're going to learn about HTML elements, CSS styling, CSS selectors, how color works in CSS, and importing stylesheets.  That might sound like a lot but it isn't.
+In this lab, you're going to make a rainbow with HTML `<div>` elements. Through this process, you'll learn about HTML elements, CSS styling, CSS selectors, how color works in CSS and importing stylesheets.  That might sound like a lot but it isn't.
 
-Before we start, here's some basic info about HTML and CSS. Skip to [Making a Rainbow](#making-a-rainbow) if you feel comfortable enough with HTML and CSS.
+Before you start, here's some basic info about HTML and CSS. Skip to [Making a Rainbow](#making-a-rainbow) if you feel comfortable enough with HTML and CSS.
 
 ## Objectives
 You will be able to:
@@ -30,7 +30,7 @@ Hyper Text Markup Language, or HTML, is a way to demarcate a document into diffe
   + Children inherit attributes from their parents.
   + Don't nest everything. 
 - Elements next to one another are siblings.
-  + Siblings do not inherit from one another, but are important for selecting in CSS.
+  + Siblings do not inherit from one another but are important for selecting in CSS.
 
 Here is an example of element relations:
 ```html
@@ -41,7 +41,7 @@ Here is an example of element relations:
 ```
 
 ## CSS Basics
-Cascading Style Sheets, or CSS, is a language created to style an HTML document by telling the browser how specific elements should look. CSS does this by selecting elements based on their tag, ids, classes, or all of the above. The reason for CSS is the separation of concerns. We want HTML only to be concerned with how it displays and demarcates information, and we let CSS worry about how to make that information look pretty.
+Cascading Style Sheets, or CSS, is a language created to style an HTML document by telling the browser how specific elements should look. CSS does this by selecting elements based on their tag, ids, classes, or all of the above. The reason for CSS is the separation of concerns. You want HTML only to be concerned with how it displays and demarcates information, and we let CSS worry about how to make that information look pretty.
 
 ## CSS selectors
   - They select elements to assign them styles.
@@ -60,10 +60,12 @@ Here's an example of CSS styling:
 ```
 
 ## Making a Rainbow
-In this directory you'll see three files. `index.html`, `main.css`, and this `README.md`.  Open them in your text editor via your command line.  Also open `index.html` in your browser; if everything is working correctly you should see a white page. Good job!
+First off make sure you have [forked](https://github.com/learn-co-students/my-little-rainbow-v-000) and cloned this repo. Next, create a new branch, and switch to it; it's `git checkout -b your_solution_branch_name` in case you forgot.
+
+In that directory you'll see three files. `index.html`, `main.css`, and this `README.md`.  Open them in your text editor via your command line.  Also open `index.html` in your browser; if everything is working correctly you should see a white page. Good job!
 
 ## Making the Divs Visible
-If you use the inspector or look at the file in your text editor, you'll see that the basic file stucture is there.  So why can't we see anything?!?!?  That's because the divs have no styling on them right now.  And that's because we never told the browser to include a CSS file that would apply any styles. 
+If you use the inspector or look at the file in your text editor, you'll see that the basic file structure is there.  So why can't we see anything?!?!?  That's because the divs have no styling on them right now.  And that's because we never told the browser to include a CSS file that would apply any styles. 
 
 Let's fix this by adding the stylesheet to the `head` like so,
 ```html
@@ -77,7 +79,7 @@ Link is a self closing tag that will create a relative path with the `href` attr
 
 Now if you refresh the `index.html` page in your browser you should see an ugly black rainbow.  Gerd Jerb!
 
-Okay so we got the basic outline because in the `main.css` all the `div` elements were selected and styled, but the colors are wrong because the default border color is black.  To fix this we need to learn a little bit more about colors, because while we could just set `color: red;` we should learn how to make colors without words.  We should just use numbers, and not just any set of numbers, but numbers with base pair of 16 rather than base pair of 10 like we use everyday.  These numbers are called hexadecimals and we can use them to make colors.
+Okay so you've got the basic outline because in the `main.css` all the `div` elements were selected and styled, but the colors are wrong because the default border color is black.  To fix this we need to learn a little bit more about colors, because while we could just set `color: red;` we should learn how to make colors without words.  We should just use numbers and not just any set of numbers, but numbers with base pair of 16 rather than base pair of 10 like we use everyday.  These numbers are called hexadecimal numbers and we can use them to make colors.
 
 ## Some Stuff You Should Know About Hex Colors (and Web Colors in General).
 Hex colors begin with `#` and are followed by, generally, 6 numbers, but some of these numbers are actually letters.  The lowest single digit number in hex is 0 and the highest single digit number is f.  This table might help to visualize what we mean by this.
@@ -115,4 +117,4 @@ So to make sure the rainbow isn't so monochromatic you now need to repeat the ab
 
 
 ## Summary
-Well done! In this lab you independently modified HTML and CSS files in order to update a webpage.
+Well done! In this lab, you independently modified HTML and CSS files in order to update a webpage.
