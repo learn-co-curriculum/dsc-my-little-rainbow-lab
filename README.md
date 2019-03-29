@@ -20,7 +20,7 @@ Hyper Text Markup Language, or HTML, is a way to demarcate a document into diffe
 - Most have an opening tag such as `<div>` and a closing tag `</div>`.
   + The `/` indicates to the browser that that tag is a closing tag.
   + The element is everything between the tags and the tags themselves.
-- Some tags are self closing like the line break element `<br>`.
+- Some tags are self-closing like the line break element `<br>`.
 - Elements can have IDs and classes to aid the browser in finding specific tags.
   + Must begin with a letter A-Z or a-z.
   + Can be followed by: letters (`A-Za-z`), digits (`0-9`), hyphens (`-`), and underscores (`_`).
@@ -53,7 +53,8 @@ Cascading Style Sheets, or CSS, is a language created to style an HTML document 
   - To select multiple different elements separate them by commas like this `div, p, a`
 
 Here's an example of CSS styling:
-```css
+
+```CSS
 * {
   color: red;  /* color in CSS refers to font color */
 }  /* all elements will have red font */
@@ -62,24 +63,24 @@ Here's an example of CSS styling:
 ## Making a Rainbow
 First off make sure you have [forked](https://github.com/learn-co-students/my-little-rainbow-v-000) and cloned this repo. Next, create a new branch, and switch to it; it's `git checkout -b your_solution_branch_name` in case you forgot.
 
-In that directory you'll see three files. `index.html`, `main.css`, and this `README.md`.  Open them in your text editor via your command line.  Also open `index.html` in your browser; if everything is working correctly you should see a white page. Good job!
+In that directory, you'll see three files. `index.html`, `main.css`, and this `README.md`.  Open them in your text editor via your command line.  Also, open `index.html` in your browser; if everything is working correctly you should see a white page. Good job!
 
 ## Making the Divs Visible
 If you use the inspector or look at the file in your text editor, you'll see that the basic file structure is there.  So why can't we see anything?!?!?  That's because the divs have no styling on them right now.  And that's because we never told the browser to include a CSS file that would apply any styles. 
 
 Let's fix this by adding the stylesheet to the `head` like so,
-```html
+```HTML
 <head>
 ... 
   <link rel="stylesheet" type="text/css" href="main.css">
 ...
 </head>
 ```
-Link is a self closing tag that will create a relative path with the `href` attribute.  A relative path means the browser knows that the `main.css` file is in the same place as `index.html`.  The `head` is a hidden part of the page that tells the browser where to find any other files it needs to display the page correctly, the `title` for the tab, and any other possible important information.
+The link is a self-closing tag that will create a relative path with the `href` attribute.  A relative path means the browser knows that the `main.css` file is in the same place as `index.html`.  The `head` is a hidden part of the page that tells the browser where to find any other files it needs to display the page correctly, the `title` for the tab, and any other possible important information.
 
 Now if you refresh the `index.html` page in your browser you should see an ugly black rainbow.  Gerd Jerb!
 
-Okay so you've got the basic outline because in the `main.css` all the `div` elements were selected and styled, but the colors are wrong because the default border color is black.  To fix this we need to learn a little bit more about colors, because while we could just set `color: red;` we should learn how to make colors without words.  We should just use numbers and not just any set of numbers, but numbers with base pair of 16 rather than base pair of 10 like we use everyday.  These numbers are called hexadecimal numbers and we can use them to make colors.
+Okay so you've got the basic outline because in the `main.css` all the `div` elements were selected and styled, but the colors are wrong because the default border color is black.  To fix this we need to learn a little bit more about colors, because while we could just set `color: red;` we should learn how to make colors without words.  We should just use numbers and not just any set of numbers, but numbers with base pair of 16 rather than base pair of 10 like we use every day.  These numbers are called hexadecimal numbers and we can use them to make colors.
 
 ## Some Stuff You Should Know About Hex Colors (and Web Colors in General).
 Hex colors begin with `#` and are followed by, generally, 6 numbers, but some of these numbers are actually letters.  The lowest single digit number in hex is 0 and the highest single digit number is f.  This table might help to visualize what we mean by this.
@@ -97,7 +98,7 @@ Hex colors can be shortened to just three numbers when each RGB value is the sam
 To get roygbiv onto our rainbow we'll need seven hex colors.
 Red: `#f00`; Orange: `#ffa500`; Yellow: `#ff0`; Green: `#00bc3f`; Blue: `#06f`; Indigo: `#8a2be2`; Violet: `#d300c9`
 
-With those colors all we have to do next is select each div individually.  That is a perfect use for ids since they're meant to style one specific element only.  So that means we'll need to add an id for each div, so a logical name for each div would be the color that they have to be.  It could be something random, but good names make for semantic code. So let's give the outermost div the id red. We'll do this like so.
+With those colors, all we have to do next is select each div individually.  That is a perfect use for ids since they're meant to style one specific element only.  So that means we'll need to add an id for each div, so a logical name for each div would be the color that they have to be.  It could be something random, but good names make for semantic code. So let's give the outermost div the id red. We'll do this like so.
 ```html
 <div id="red">
   ...
