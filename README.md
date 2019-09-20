@@ -83,7 +83,7 @@ Now if you refresh the `index.html` page in your browser you should see an ugly 
 Okay so you've got the basic outline because in the `main.css` all the `div` elements were selected and styled, but the colors are wrong because the default border color is black.  To fix this we need to learn a little bit more about colors, because while we could just set `color: red;` we should learn how to make colors without words.  We should just use numbers and not just any set of numbers, but numbers with base pair of 16 rather than base pair of 10 like we use every day.  These numbers are called hexadecimal numbers and we can use them to make colors.
 
 ## Some Stuff You Should Know About Hex Colors (and Web Colors in General).
-Hex colors begin with `#` and are followed by, generally, 6 numbers, but some of these numbers are actually letters.  The lowest single digit number in hex is 0 and the highest single digit number is f.  This table might help to visualize what we mean by this.
+Hex colors begin with `#` and are followed by, generally, 6 numbers, but some of these numbers are actually letters.  The lowest single-digit number in hex is 0 and the highest single-digit number is f.  This table might help to visualize what we mean by this.
 
 ```
 Decimal Numbers:      0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
