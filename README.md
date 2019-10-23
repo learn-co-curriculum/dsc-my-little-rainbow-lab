@@ -8,8 +8,8 @@ Before you start, here's some basic info about HTML and CSS. Skip to [Making a R
 
 ## Objectives
 You will be able to:
-* Modify HTML and CSS files
-* Add ids to HTML elements
+* Describe the purpose of IDs in HTML
+* Add ID elements to HTML tags
 * Select and style HTML elements with CSS
 
 ## HTML Basics
@@ -24,8 +24,8 @@ Hyper Text Markup Language, or HTML, is a way to demarcate a document into diffe
 - Elements can have IDs and classes to aid the browser in finding specific tags.
   + Must begin with a letter A-Z or a-z.
   + Can be followed by: letters (`A-Za-z`), digits (`0-9`), hyphens (`-`), and underscores (`_`).
-  + IDs **can** only be used once per page. E.g.: `<div id="this-special-div"></div>`.
-  + Classes can be used as many times as you want. E.g.: `<div class="a-less-special-div"></div>`.
+  + IDs **can** only be used once per page, e.g.: `<div id="this-special-div"></div>`.
+  + Classes can be used as many times as you want, e.g.: `<div class="a-less-special-div"></div>`.
 - Elements nested inside other elements are called children.
   + Children inherit attributes from their parents.
   + Don't nest everything. 
@@ -118,4 +118,4 @@ So to make sure the rainbow isn't so monochromatic you now need to repeat the ab
 
 
 ## Summary
-Well done! In this lab, you independently modified HTML and CSS files in order to update a webpage.
+Well done! In this lab, you independently modified HTML and CSS files in order to update a webpage. Specifically, you got some experience understanding and working with HTML IDs. You also used CSS to style HTML elements.
