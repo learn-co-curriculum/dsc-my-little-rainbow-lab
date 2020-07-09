@@ -61,7 +61,7 @@ Here's an example of CSS styling:
 ```
 
 ## Making a Rainbow
-First off make sure you have [forked](https://github.com/learn-co-students/my-little-rainbow-v-000) and cloned this repo. Next, create a new branch, and switch to it; it's `git checkout -b your_solution_branch_name` in case you forgot.
+First off make sure you have [forked](https://github.com/learn-co-curriculum/dsc-my-little-rainbow-lab) and cloned this repo. Next, create a new branch, and switch to it; it's `git checkout -b your_solution_branch_name` in case you forgot.
 
 In that directory, you'll see three files. `index.html`, `main.css`, and this `README.md`.  Open them in your text editor via your command line.  Also, open `index.html` in your browser; if everything is working correctly you should see a white page. Good job!
 
