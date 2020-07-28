@@ -108,9 +108,11 @@ With those colors, all we have to do next is select each div individually.  That
 
 And to give that id some CSS attributes we'll go into `main.css`, select the id, and mark its color as red like this.
 
-<code>#red { /* this selects any elements with the red id */
+<code>
+  #red { /* this selects any elements with the red id */
   border-top-color: #f00;
-}</code>
+}
+</code>
 
 So to make sure the rainbow isn't so monochromatic you now need to repeat the above steps with the final six colors of the rainbow, and when you do you should have something like [this](http://i0.kym-cdn.com/photos/images/original/000/118/087/2468904593_6a7c692ab6.jpg).
 
