@@ -9,3 +9,31 @@ div {
   border-right-color: transparent; /* the right side */
   border-bottom-color: transparent; /* and the bottom of the circle */
 }
+
+#red { /* this selects any elements with the red id */
+  border-top-color: #f00;
+}
+
+#orange { /* this selects any elements with the red id */
+  border-top-color: #ffa500;
+}
+
+#yellow { /* this selects any elements with the red id */
+  border-top-color: #ff0;
+}
+
+#green { /* this selects any elements with the red id */
+  border-top-color: #00bc3f;
+}
+
+#blue { /* this selects any elements with the red id */
+  border-top-color: #06f;
+}
+
+#indigo { /* this selects any elements with the red id */
+  border-top-color: #8a2be2;
+}
+
+#violet { /* this selects any elements with the red id */
+  border-top-color: #d300c9;
+}
