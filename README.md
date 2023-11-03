@@ -7,7 +7,7 @@ In this lab, you're going to make a rainbow with HTML `<div>` elements. Through 
 Before you start, here's some basic info about HTML and CSS. Skip to [Making a Rainbow](#making-a-rainbow) if you feel comfortable enough with HTML and CSS.
 
 ## Objectives
-You will be able to:  
+You will be able to do the following:  
 
 * Describe the purpose of IDs in HTML  
 * Add ID elements to HTML tags  
